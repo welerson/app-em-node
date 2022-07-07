@@ -1,0 +1,26 @@
+{
+  "name": "appnode",
+  "version": "1.0.0",
+  "description": "Exercício 8 aplicação em NODE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "Welerson Faria",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "js": "^0.1.0",
+    "knex": "^2.1.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
